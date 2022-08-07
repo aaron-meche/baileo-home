@@ -13,13 +13,13 @@ title:: Baileo
     ##:: <b:: class[item]
     ##::     /:: About
     ##:: b>
-    <b:: class[item active]
+    <b:: class[item active] onclick[page_link('apps')]
         /:: Apps
     b>
-    <b:: class[item]
-        /:: Downloads
-    b>
-    <b:: class[item]
+    ##:: <b:: class[item] onclick[page_link('download')]
+    ##::     /:: Downloads
+    ##:: b>
+    <b:: class[item] onclick[page_link('language')]
         /:: .By Language
     b>
 b>

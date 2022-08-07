@@ -1,0 +1,25 @@
+import css:: stylesheets/main.css
+import css:: stylesheets/library.css
+
+title:: Baileo
+
+<b:: class[navbar] id[main_navbar]
+    <b:: class[title]
+        /:: Baileo
+    b>
+    ##:: <b:: class[item active]
+    ##::     /:: Home
+    ##:: b>
+    ##:: <b:: class[item]
+    ##::     /:: About
+    ##:: b>
+    <b:: class[item] onclick[page_link('apps')]
+        /:: Apps
+    b>
+    <b:: class[item active] onclick[page_link('download')]
+        /:: Downloads
+    b>
+    <b:: class[item] onclick[page_link('language')]
+        /:: .By Language
+    b>
+b>

@@ -5,8 +5,8 @@ window.addEventListener('load', function () {
     // loadPage = urlParams.get('p');
     loadPage = sessionStorage['activePage'];
     if (loadPage == undefined) {
-        sessionStorage['activePage'] = 'home';
-        readTextFile('home');
+        sessionStorage['activePage'] = 'apps';
+        readTextFile('apps');
     } else {
         readTextFile(loadPage);
     }
