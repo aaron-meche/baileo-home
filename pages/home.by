@@ -1,0 +1,83 @@
+import css:: stylesheets/main.css
+import css:: stylesheets/library.css
+
+title:: Baileo
+
+<b:: class[navbar] id[main_navbar]
+    <b:: class[title]
+        /:: Baileo
+    b>
+    ##:: <b:: class[item active]
+    ##::     /:: Home
+    ##:: b>
+    ##:: <b:: class[item]
+    ##::     /:: About
+    ##:: b>
+    <b:: class[item active]
+        /:: Apps
+    b>
+    <b:: class[item]
+        /:: Downloads
+    b>
+    <b:: class[item]
+        /:: .By Language
+    b>
+b>
+
+##:: <b:: class[section]
+##::     <b:: class[title]
+##::         /:: What is Baileo?
+##::     b>
+##::     <b:: class[text]
+##::         /:: Baileo is a 
+##::     b>
+##:: b>
+
+<b:: class[app-grid-wrapper]
+    <b:: class[item]
+        image:: http://50.58.218.209/images/app%20icon.png:: onclick[window.open('http://50.58.218.209','_self')]
+        <b:: class[title]
+            /:: Video Player
+        b>
+    b>
+
+    <b:: class[item]
+        image:: http://50.58.218.209/images/color.jpeg:: onclick[window.open('https://color.baileo.us','_self')]
+        <b:: class[title]
+            /:: Color Generator
+        b>
+    b>
+
+    <b:: class[item]
+        image:: https://cdn.shopify.com/s/files/1/1594/2547/products/image_63f2fa98-5660-42a5-9e5d-fd71a1214647_large.jpg?v=1585266861
+        <b:: class[title]
+            /:: Empty
+        b>
+    b>
+
+    <b:: class[item]
+        image:: https://cdn.shopify.com/s/files/1/1594/2547/products/image_63f2fa98-5660-42a5-9e5d-fd71a1214647_large.jpg?v=1585266861
+        <b:: class[title]
+            /:: Empty
+        b>
+    b>
+
+    <b:: class[item]
+        image:: https://cdn.shopify.com/s/files/1/1594/2547/products/image_63f2fa98-5660-42a5-9e5d-fd71a1214647_large.jpg?v=1585266861
+        <b:: class[title]
+            /:: Empty
+        b>
+    b>
+
+    <b:: class[item]
+        image:: https://cdn.shopify.com/s/files/1/1594/2547/products/image_63f2fa98-5660-42a5-9e5d-fd71a1214647_large.jpg?v=1585266861
+        <b:: class[title]
+            /:: Empty
+        b>
+    b>
+b>
+
+##:: <div class='grid-item' onclick='openPage("https://baileo.us/source")'>
+##::     <img src='icons/source app.png'>
+##::     <div class='title'>Source Files</div>
+##:: </div>

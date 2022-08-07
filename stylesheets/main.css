@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'BaileyScript';
+    src: url('https://library.baileo.us/BaileyScript/BaileyScript.ttf');
+}
+
+body{
+    margin: 0;
+    font-family: BaileyScript;
+    overflow-y: hidden;
+}
